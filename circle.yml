@@ -1,6 +1,9 @@
 machine:
     python:
       version: pypy-2.2.1
+dependencies:
+  pre:
+    - pip install Flask
 deployment:
   production:
     branch: master
