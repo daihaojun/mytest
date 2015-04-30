@@ -4,4 +4,5 @@ machine:
 deployment:
   production:
     branch: master
-    commands: python app.py
+    commands:
+      - python app.py
